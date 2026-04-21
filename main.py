@@ -198,17 +198,17 @@ from time import time
 
 #EJERCICIO 19
 
-numero = int(input("Ingrese un numero para formar un cuadrado: "))
-
-resultado_1 = numero * "*"
-print(resultado_1)
-
-for i in range(numero):
-    resultado = "*" + (numero - 2) * " " + "*"
-    print(resultado)
-
-resultado_1 = numero * "*"
-print(resultado_1)
+# numero = int(input("Ingrese un numero para formar un cuadrado: "))
+#
+# resultado_1 = numero * "*"
+# print(resultado_1)
+#
+# for i in range(numero):
+#     resultado = "*" + (numero - 2) * " " + "*"
+#     print(resultado)
+#
+# resultado_1 = numero * "*"
+# print(resultado_1)
 
 # EJERCICIO 20
 
