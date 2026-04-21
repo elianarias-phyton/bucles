@@ -198,17 +198,17 @@ from time import time
 
 #EJERCICIO 19
 
-# numero = int(input("Ingrese el numero 4: "))
-#
-# for i in range(1,numero+1,1):
-#     print(end="*")
-# print()
-#
-# for i in range(1, numero + 1, 1):
-#     print("*", numero*"" , "*")
-#
-# for i in range(1, numero+1, 1):
-#     print(end="*")
+numero = int(input("Ingrese un numero para formar un cuadrado: "))
+
+resultado_1 = numero * "*"
+print(resultado_1)
+
+for i in range(numero):
+    resultado = "*" + (numero - 2) * " " + "*"
+    print(resultado)
+
+resultado_1 = numero * "*"
+print(resultado_1)
 
 # EJERCICIO 20
 
@@ -237,5 +237,5 @@ from time import time
 #         if intentos == 0:
 #             print("Te quedaste sin intentos. Fin del juego.")
 #             break
-
-#     print("¡Ganaste! El numero random era", numero_aleatorio)
+#
+# print("¡Ganaste! El numero random era", numero_aleatorio)
