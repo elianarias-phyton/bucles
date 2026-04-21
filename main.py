@@ -210,7 +210,7 @@ from time import time
 # for i in range(1, numero+1, 1):
 #     print(end="*")
 
-#EJERCICIO 20
+# EJERCICIO 20
 
 # import random
 # numero_aleatorio = random.randint(1, 100)
@@ -237,5 +237,5 @@ from time import time
 #         if intentos == 0:
 #             print("Te quedaste sin intentos. Fin del juego.")
 #             break
-# else:
+
 #     print("¡Ganaste! El numero random era", numero_aleatorio)
